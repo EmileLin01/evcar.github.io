@@ -17,7 +17,7 @@
     window.onload = function() {
 
       const ui = SwaggerUIBundle({
-        url: "openapi_car.yml",
+        url: "openapi_car.yaml",
         dom_id: "#EV-Drive-oas",
         deepLinking: true,
       })
